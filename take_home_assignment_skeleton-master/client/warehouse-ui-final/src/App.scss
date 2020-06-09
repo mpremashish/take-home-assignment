@@ -1,0 +1,36 @@
+@import "custom";
+
+.header {
+  text-align: center;
+}
+
+span {
+  &.dangerText {
+    color: #dc3545;
+  }
+
+  &.infoText {
+    color: #17a2b8;
+    font-weight: bold;
+  }
+
+  .nav-logo {
+    float: left;
+    margin-top: -5px;
+    margin-left: -5px;
+  }
+}
+
+.icon_span {
+  float: right;
+}
+
+.k-icon-64 {
+  font-size: 32px; /* Sets icon size to 64px */
+  margin: 5px;
+}
+
+.font-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
